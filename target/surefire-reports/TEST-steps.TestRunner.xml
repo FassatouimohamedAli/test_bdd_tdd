@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="steps.TestRunner" time="0.686" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Fassatoui Mohamed Al\eclipse-workspace\Test_BTJ-main\target\test-classes;C:\Users\Fassatoui Mohamed Al\eclipse-workspace\Test_BTJ-main\target\classes;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="user.country.format" value="TN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Fassatoui Mohamed Al\AppData\Local\Temp\surefire6458014567580170895\surefirebooter-20241210150848875_3.jar C:\Users\Fassatoui Mohamed Al\AppData\Local\Temp\surefire6458014567580170895 2024-12-10T15-08-48_647-jvmRun1 surefire-20241210150848875_1tmp surefire_0-20241210150848875_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Fassatoui Mohamed Al\eclipse-workspace\Test_BTJ-main\target\test-classes;C:\Users\Fassatoui Mohamed Al\eclipse-workspace\Test_BTJ-main\target\classes;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Fassatoui Mohamed Al\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Fassatoui Mohamed Al"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_74\jre"/>
+    <property name="basedir" value="C:\Users\Fassatoui Mohamed Al\eclipse-workspace\Test_BTJ-main"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Fassatoui Mohamed Al\AppData\Local\Temp\surefire6458014567580170895\surefirebooter-20241210150848875_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_74-b02"/>
+    <property name="user.name" value="Fassatoui Mohamed Al"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Fassatoui Mohamed Al\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\FASSAT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_74"/>
+    <property name="user.dir" value="C:\Users\Fassatoui Mohamed Al\eclipse-workspace\Test_BTJ-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oracleApp\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\xampp\php;C:\Program Files\nodejs\;C:\composer;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_74;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\Fassatoui Mohamed Al\Desktop\apache-maven-3.9.9\bin;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\Python\Python312\;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\Python\Python310\;C:\Users\Fassatoui Mohamed Al\AppData\Local\Microsoft\WindowsApps;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Fassatoui Mohamed Al\AppData\Roaming\npm;C:\Users\Fassatoui Mohamed Al\AppData\Roaming\Composer\vendor\bin;C:\xampp\htdocs\symfony-cli_windows_amd64;C:\Program Files\Azure Data Studio\bin;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\mongosh\;C:\Users\Fassatoui Mohamed Al\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.5\bin;;C:\Users\Fassatoui Mohamed Al\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\ProgramData\Fassatoui Mohamed Al\GitHubDesktop\bin;C:\Users\Fassatoui Mohamed Al\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Vérifier l&apos;affichage du tableau des résultats" classname="Test de la fonctionnalité de connexion" time="0.105">
+    <error message="The step &apos;l&apos;étudiant est connecté et dispose de résultats enregistrés&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;l&apos;étudiant est connecté et dispose de résultats enregistrés&quot;)&#10;public void l_étudiant_est_connecté_et_dispose_de_résultats_enregistrés() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;il navigue vers la page des résultats&quot;)&#10;public void il_navigue_vers_la_page_des_résultats() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;un tableau affichant les résultats est visible&quot;)&#10;public void un_tableau_affichant_les_résultats_est_visible() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'l'étudiant est connecté et dispose de résultats enregistrés' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("l'étudiant est connecté et dispose de résultats enregistrés")
+public void l_étudiant_est_connecté_et_dispose_de_résultats_enregistrés() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("il navigue vers la page des résultats")
+public void il_navigue_vers_la_page_des_résultats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("un tableau affichant les résultats est visible")
+public void un_tableau_affichant_les_résultats_est_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@loginFeature @validCredentials
+Scenario: VÃ©rifier l'affichage du tableau des rÃ©sultats             &amp#27;[90m# src/test/resources/Features/login.feature:4&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33ml'Ã©tudiant est connectÃ© et dispose de rÃ©sultats enregistrÃ©s&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mil navigue vers la page des rÃ©sultats&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mun tableau affichant les rÃ©sultats est visible&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Vérifier l&apos;affichage du message d&apos;absence de résultats" classname="Test de la fonctionnalité de connexion" time="0.01">
+    <error message="The step &apos;l&apos;étudiant est connecté mais ne dispose pas de résultats enregistrés&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;l&apos;étudiant est connecté mais ne dispose pas de résultats enregistrés&quot;)&#10;public void l_étudiant_est_connecté_mais_ne_dispose_pas_de_résultats_enregistrés() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;il navigue vers la page des résultats&quot;)&#10;public void il_navigue_vers_la_page_des_résultats() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;un message indiquant {string} est affiché&quot;)&#10;public void un_message_indiquant_est_affiché(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'l'étudiant est connecté mais ne dispose pas de résultats enregistrés' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("l'étudiant est connecté mais ne dispose pas de résultats enregistrés")
+public void l_étudiant_est_connecté_mais_ne_dispose_pas_de_résultats_enregistrés() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("il navigue vers la page des résultats")
+public void il_navigue_vers_la_page_des_résultats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("un message indiquant {string} est affiché")
+public void un_message_indiquant_est_affiché(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@loginFeature @invalidCredentials
+Scenario: VÃ©rifier l'affichage du message d'absence de rÃ©sultats             &amp#27;[90m# src/test/resources/Features/login.feature:9&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33ml'Ã©tudiant est connectÃ© mais ne dispose pas de rÃ©sultats enregistrÃ©s&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mil navigue vers la page des rÃ©sultats&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mun message indiquant "Aucun rÃ©sultat disponible" est affichÃ©&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

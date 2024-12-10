@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StudentBehaviorTest {
-	
+
     @Given("l'étudiant est connecté et dispose de résultats enregistrés")
     public void letudiant_est_connecte_et_dispose_de_resultats_enregistres() {
         System.out.println("L'étudiant est connecté et dispose de résultats enregistrés.");
@@ -22,7 +22,7 @@ public class StudentBehaviorTest {
     public void un_tableau_affichant_les_resultats_est_visible() {
         System.out.println("Un tableau affichant les résultats est visible.");
     }
-    
+
     @Given("l'étudiant est connecté mais ne dispose pas de résultats enregistrés")
     public void letudiant_est_connecte_mais_ne_dispose_pas_de_resultats_enregistres() {
         System.out.println("L'étudiant est connecté mais ne dispose pas de résultats enregistrés.");
@@ -38,5 +38,5 @@ public class StudentBehaviorTest {
     public void un_message_indiquant_est_affiche(String message) {
         // Code pour vérifier que le message est affiché
         System.out.println("Message affiché: " + message);
-    }
+    }git init
 }

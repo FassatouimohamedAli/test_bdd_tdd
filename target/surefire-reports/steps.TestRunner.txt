@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: steps.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.686 s <<< FAILURE! -- in steps.TestRunner
+Test de la fonctionnalité de connexion.Vérifier l'affichage du tableau des résultats -- Time elapsed: 0.105 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'l'étudiant est connecté et dispose de résultats enregistrés' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("l'étudiant est connecté et dispose de résultats enregistrés")
+public void l_étudiant_est_connecté_et_dispose_de_résultats_enregistrés() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("il navigue vers la page des résultats")
+public void il_navigue_vers_la_page_des_résultats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("un tableau affichant les résultats est visible")
+public void un_tableau_affichant_les_résultats_est_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Test de la fonctionnalité de connexion.Vérifier l'affichage du message d'absence de résultats -- Time elapsed: 0.010 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'l'étudiant est connecté mais ne dispose pas de résultats enregistrés' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("l'étudiant est connecté mais ne dispose pas de résultats enregistrés")
+public void l_étudiant_est_connecté_mais_ne_dispose_pas_de_résultats_enregistrés() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("il navigue vers la page des résultats")
+public void il_navigue_vers_la_page_des_résultats() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("un message indiquant {string} est affiché")
+public void un_message_indiquant_est_affiché(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
