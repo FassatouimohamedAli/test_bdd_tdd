@@ -38,5 +38,5 @@ public class StudentBehaviorTest {
     public void un_message_indiquant_est_affiche(String message) {
         // Code pour vérifier que le message est affiché
         System.out.println("Message affiché: " + message);
-    }git init
+    }
 }
