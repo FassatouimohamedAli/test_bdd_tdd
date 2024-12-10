@@ -37,16 +37,7 @@
                 </configuration>
             </plugin>
             <!-- Plugin Cucumber pour l'exécution des tests Gherkin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version> <!-- Version stable recommandée -->
-                <configuration>
-                    <includes>
-                        <include>**/*Test.java</include>
-                    </includes>
-                </configuration>
-            </plugin>
+
         </plugins>
     </build>
 
