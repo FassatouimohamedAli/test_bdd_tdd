@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.161" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="Test de la fonctionnalité de connexion" name="Vérifier l'affichage du tableau des résultats" time="0.02">
+<testsuite name="Cucumber" time="0.175" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Test de la fonctionnalité de connexion" name="Vérifier l'affichage du tableau des résultats" time="0.021">
 <system-out><![CDATA[
 Given l'étudiant est connecté et dispose de résultats enregistrés...........passed
 When il navigue vers la page des résultats..................................passed
 Then un tableau affichant les résultats est visible.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test de la fonctionnalité de connexion" name="Vérifier l'affichage du message d'absence de résultats" time="0.003">
+<testcase classname="Test de la fonctionnalité de connexion" name="Vérifier l'affichage du message d'absence de résultats" time="0.004">
 <system-out><![CDATA[
 Given l'étudiant est connecté mais ne dispose pas de résultats enregistrés..passed
 When il navigue vers la page des résultats..................................passed
